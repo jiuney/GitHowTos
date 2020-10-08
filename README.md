@@ -6,6 +6,8 @@
 
 
 
+
+
 # 깃허브 시작하기
 
 0. [깃허브](https://github.com)에 가입한다.
@@ -55,7 +57,7 @@
 
     `.`은 리눅스에서 현재 디렉토리(폴더)를 표기하는 방법으로, 지금 내 폴더에 있는 파일의 변경사항을 전부 추가한다는 뜻이다.
 
-11. `git commit"`을 통해 staging area에 있던 작업내역들을 local repository로 보낸다.
+11. `git commit`을 통해 staging area에 있던 작업내역들을 local repository로 보낸다.
 
     ```bash
     git commit -m "201008 Getting started with Git"
@@ -72,6 +74,8 @@
     이 명령어를 실행하면 깃허브에 로그인하는 창이 뜬다. 그럼 깃허브 계정으로 로그인하면 된다.
 
 13. 오류 안나고 잘 올라갔으면 성공! 나도 README를 올리는데 성공했다.
+
+
 
 
 
