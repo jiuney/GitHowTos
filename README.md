@@ -1,4 +1,4 @@
-# 깃허브에 대한 정보 정리
+# Git에 대한 정보 정리
 
 분명히 강좌 들을 때 열심히 썼는데도... 몇 달 안 썼더니 다 까먹어서 허탈하다...
 
@@ -47,13 +47,23 @@
 
 9. 이제 로컬 working directory에서 작업을 한다. 나는 일단 이 README.md를 작성했다.
 
-10. 작성한 파일을 업로드하려고 한다. 우선 `git add`를 통해 작업한 내역들 (=변경사항들) 을 `staging area`로 보낸다.
+10. 작성한 파일을 업로드하려고 한다. 우선 `git add`를 통해 작업한 내역들 (=변경사항들) 을 staging area로 보낸다.
 
-11. `git commit -m "message"`를 통해 `staging area`에 있던 작업내역들을 `local repository`로 보낸다. 즉 이 명령어는 commit도 하고, 해당 commit에 대한 설명도 덧붙이는 것이다.
+11. `git commit -m "message"`를 통해 staging area에 있던 작업내역들을 local repository로 보낸다. 즉 이 명령어는 commit도 하고, 해당 commit에 대한 설명도 덧붙이는 것이다.
 
     ```bash
     git commit -m "201008 Getting started with Git"
     ```
 
-12. 
+12. 이제 로컬 저장소에 담긴 작업내역들을 원격 저장소로 보낸다.
+
+13. 오류 안났으면 성공! 나도 README를 올리는데 성공했다.
+
+
+
+이걸 다 정리하고보니 [강좌 들을 때 정리해둔게 있었다](https://github.com/jiuney/Multicampus/tree/master/GitHub%20%ED%8A%B9%EA%B0%95)...ㅎㅎ 어쩐지... 분명 적어놨었는데 못찾겠더라... 아무튼 이제 까먹지 말자.
+
+
+
+이건 깃허브 시작하는 방법이고, 다른 깃 관련 정보들은 이 repository안에 따로 정리해야겠다.
 
