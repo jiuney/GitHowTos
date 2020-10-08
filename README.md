@@ -49,11 +49,19 @@
 
 10. 작성한 파일을 업로드하려고 한다. 우선 `git add`를 통해 작업한 내역들 (=변경사항들) 을 staging area로 보낸다.
 
-11. `git commit -m "message"`를 통해 staging area에 있던 작업내역들을 local repository로 보낸다. 즉 이 명령어는 commit도 하고, 해당 commit에 대한 설명도 덧붙이는 것이다.
+    ```bash
+    git add .
+    ```
+
+    `.`은 리눅스에서 현재 디렉토리(폴더)를 표기하는 방법으로, 지금 내 폴더에 있는 파일의 변경사항을 전부 추가한다는 뜻이다.
+
+11. `git commit"`을 통해 staging area에 있던 작업내역들을 local repository로 보낸다.
 
     ```bash
     git commit -m "201008 Getting started with Git"
     ```
+
+    이 명령어는 commit도 하고, 해당 commit에 대한 설명도 덧붙이는 것이다.
 
 12. 이제 로컬 저장소에 담긴 작업내역들을 원격 저장소로 보낸다.
 
