@@ -77,11 +77,12 @@
 
 
 
+---
+
 
 
 이걸 다 정리하고보니 [강좌 들을 때 정리해둔게 있었다](https://github.com/jiuney/Multicampus/tree/master/GitHub%20%ED%8A%B9%EA%B0%95)...ㅎㅎ 어쩐지... 분명 적어놨었는데 못찾겠더라... 아무튼 이제 까먹지 말자.
 
 
 
-이건 깃허브 시작하는 방법이고, 다른 깃 관련 정보들은 이 repository안에 따로 정리해야겠다.
-
+이 외 다른 깃 관련 정보들은 이 repository안에 차곡차곡 정리해야겠다.
